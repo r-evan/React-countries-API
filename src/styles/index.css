@@ -133,13 +133,14 @@ option {
   width: 280px;
   height: 180px;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 280px 180px;
   background-position: center;
 }
 .card-text {
   background-color: var(--bg2);
   padding: 20px 20px 35px;
   line-height: 23px;
+  width: 280px;
 }
 .card-text h3 {
   margin: 0px 0px 10px;
@@ -178,6 +179,9 @@ option {
 .country-title {
   margin-bottom: 40px;
   font-weight: 800;
+}
+.left{
+  margin-right: 20px;
 }
 .country-info {
   display: flex;
